@@ -1,9 +1,32 @@
 .list {
-    width: 40%;
+    /* width: 100vw; */
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin:5rem auto;
+    /* justify-content: center; */
+    align-items: flex-start;
+    padding-top: 4rem;
+    margin: auto;
     gap: 10px;
+}
+
+.liste{
+    width: 350px;
+    height: 450px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% ); */
+}
+.list-item {
+    background-image: linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%);
+}
+
+.icon{
+    transition: transform 1s;
+}
+.icon:hover {
+    transform: scale(1.30);
+    /* background-color: aquamarine; */
 }
